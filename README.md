@@ -9,9 +9,7 @@ Notebooks show finetuning classifiers on review sentiment analysis (3500 x 3 cat
 Blog post: <a href="https://medium.com/@mapmeld/teaching-hindi-to-electra-b11084baab81">https://medium.com/@mapmeld/teaching-hindi-to-electra-b11084baab81</a>
 
 It's available on HuggingFace: https://huggingface.co/monsoon-nlp/hindi-bert
-- sample usage in HindiMovieReviews-HF.ipynb
-
-I was greatly influenced by: https://huggingface.co/blog/how-to-train
+- sample usage in HindiMovieReviews-HF.ipynb classifying movie reviews from https://github.com/sid573/Hindi_Sentiment_Analysis
 
 ## Corpus
 
