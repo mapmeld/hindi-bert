@@ -1,6 +1,6 @@
 # hindi-bert
 
-This is a first attempt at a Hindi language model trained with Google Research's [ELECTRA](https://github.com/google-research/electra).  **I don't modify ELECTRA until we get into finetuning**, and only then because there's hardcoded train and test files
+This is a Hindi language model trained with Google Research's [ELECTRA](https://github.com/google-research/electra).  **I don't modify ELECTRA code until we get into finetuning**, and only then because there's hardcoded train and test files
 
 The corpus is Hindi text (9 GB of OSCAR / CommonCrawl, ~1GB of Hindi Wikipedia)
 
@@ -10,6 +10,8 @@ Blog post: <a href="https://medium.com/@mapmeld/teaching-hindi-to-electra-b11084
 
 It's available on HuggingFace: https://huggingface.co/monsoon-nlp/hindi-bert
 - sample usage in HindiMovieReviews-HF.ipynb classifying movie reviews from https://github.com/sid573/Hindi_Sentiment_Analysis
+
+**2022 Update: Consider using Google's MuRIL model for Indian languages: https://huggingface.co/google/muril-large-cased**
 
 ## Corpus
 
